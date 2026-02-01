@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOLIX.AI - Reduce Cloud Costs by upto 60% in 72 Hours | AI-Powered Cloud Optimization</title>
+    <meta name="description" content="ZOLIX.AI uses advanced AI to slash your cloud spending by up to 60% within 72 hours. Optimize AWS, Azure, GCP & OCI with 5000+ best practices. Start your free assessment today.">
+    <meta name="keywords" content="cloud cost optimization, AWS cost reduction, Azure optimization, GCP savings, cloud spending, FinOps, cloud management, AI cloud optimization, ZOLIX">
+    <meta name="author" content="ZOLIX.AI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zolix.ai">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zolix.ai">
+    <meta property="og:title" content="ZOLIX.AI - Reduce Cloud Costs by upto 60% in 72 Hours">
+    <meta property="og:description" content="AI-powered cloud cost optimization platform. Slash your cloud spending across AWS, Azure, GCP & OCI with intelligent automation.">
+    <meta property="og:image" content="https://zolix.ai/og-image.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://zolix.ai">
+    <meta name="twitter:title" content="ZOLIX.AI - Reduce Cloud Costs by upto 60% in 72 Hours">
+    <meta name="twitter:description" content="AI-powered cloud cost optimization platform for AWS, Azure, GCP & OCI.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%233b82f6'/%3E%3Cstop offset='100%25' stop-color='%2306b6d4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='url(%23g)'/%3E%3Ctext x='50' y='68' font-family='Arial Black' font-size='50' fill='white' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ZOLIX.AI",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Cloud",
+        "description": "AI-powered cloud cost optimization platform that reduces cloud spending by up to 60% within 72 hours",
+        "url": "https://zolix.ai",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free Cloud Assessment"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "150"
+        }
+    }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg-primary: #030306;
+            --bg-secondary: #0a0a10;
+            --bg-card: #0d0d14;
+            --bg-card-hover: #12121a;
+            --text-primary: #ffffff;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-blue: #3b82f6;
+            --accent-blue-light: #60a5fa;
+            --accent-cyan: #06b6d4;
+            --accent-gold: #fbbf24;
+            --accent-green: #10b981;
+            --accent-purple: #8b5cf6;
+            --border-color: rgba(255, 255, 255, 0.06);
+            --border-glow: rgba(59, 130, 246, 0.3);
+            --gradient-blue: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+            --gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            --shadow-glow: 0 0 60px rgba(59, 130, 246, 0.15);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Animated Background */
+        .bg-grid {
+            position: fixed;
+            inset: 0;
+            background-image: 
+                linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .bg-gradient-orbs {
+            position: fixed;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.4;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        .orb-1 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.3) 0%, transparent 70%);
+            top: -200px;
+            right: -200px;
+            animation-delay: 0s;
+        }
+        
+        .orb-2 {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(6, 182, 212, 0.25) 0%, transparent 70%);
+            bottom: -100px;
+            left: -150px;
+            animation-delay: -7s;
+        }
+        
+        .orb-3 {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.2) 0%, transparent 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: -14s;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -30px) scale(1.05); }
+            50% { transform: translate(-20px, 20px) scale(0.95); }
+            75% { transform: translate(20px, 30px) scale(1.02); }
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Navigation */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .nav.scrolled {
+            background: rgba(3, 3, 6, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+        
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--gradient-blue);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 20px;
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+        }
+        
+        .logo-text {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo-text span {
+            background: var(--gradient-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .nav-link {
+            padding: 10px 18px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+        
+        .nav-link:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .nav-cta {
+            background: var(--gradient-blue);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+        }
+        
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(59, 130, 246, 0.4);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            cursor: pointer;
+            padding: 8px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            position: relative;
+        }
+        
+        .hero-content {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px 8px 8px;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent-blue-light);
+            margin-bottom: 32px;
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero-badge-icon {
+            width: 24px;
+            height: 24px;
+            background: var(--gradient-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .hero-title {
+            font-size: clamp(40px, 7vw, 72px);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -2px;
+            margin-bottom: 24px;
+            animation: fadeInUp 0.8s ease 0.1s both;
+        }
+        
+        .hero-title .highlight {
+            background: var(--gradient-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-title .highlight-gold {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(18px, 2.5vw, 22px);
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.7;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+        
+        .hero-cta-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.3s both;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 32px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: var(--gradient-blue);
+            color: white;
+            box-shadow: 0 4px 30px rgba(59, 130, 246, 0.4);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 40px rgba(59, 130, 246, 0.5);
+        }
+        
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+        
+        .btn-gold {
+            background: var(--gradient-gold);
+            color: #000;
+        }
+        
+        .btn-gold:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 40px rgba(251, 191, 36, 0.4);
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 80px;
+            padding: 40px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 800;
+            background: var(--gradient-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+        }
+        
+        .stat-value.gold {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+        
+        /* Section Styles */
+        section {
+            padding: 120px 0;
+            position: relative;
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 64px;
+        }
+        
+        .section-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-blue-light);
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 800;
+            letter-spacing: -1px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 32px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-blue);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(59, 130, 246, 0.3);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+        
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(59, 130, 246, 0.1);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .feature-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .feature-desc {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        /* Cloud Platforms */
+        .platforms-section {
+            background: var(--bg-secondary);
+        }
+        
+        .platforms-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        
+        .platform-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 40px 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .platform-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        
+        .platform-logo {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        
+        .platform-name {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .platform-services {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        
+        /* How It Works */
+        .steps-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            position: relative;
+        }
+        
+        .steps-container::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            right: 60px;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan), var(--accent-green), var(--accent-gold));
+            z-index: 0;
+        }
+        
+        .step-card {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: var(--bg-card);
+            border: 2px solid var(--accent-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--accent-blue);
+            position: relative;
+        }
+        
+        .step-card:nth-child(2) .step-number {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+        
+        .step-card:nth-child(3) .step-number {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+        
+        .step-card:nth-child(4) .step-number {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+        }
+        
+        .step-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .step-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        /* Bento Grid */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            gap: 24px;
+        }
+        
+        .bento-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 32px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .bento-card:hover {
+            border-color: rgba(59, 130, 246, 0.3);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .bento-large {
+            grid-column: span 8;
+            grid-row: span 2;
+        }
+        
+        .bento-medium {
+            grid-column: span 4;
+        }
+        
+        .bento-wide {
+            grid-column: span 6;
+        }
+        
+        .bento-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .bento-desc {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        .bento-stat {
+            font-size: 56px;
+            font-weight: 800;
+            background: var(--gradient-blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+        
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        
+        .testimonial-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.2);
+        }
+        
+        .testimonial-quote {
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            font-style: italic;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            background: var(--gradient-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        
+        .testimonial-name {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        
+        .testimonial-role {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        
+        /* Pricing */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            align-items: start;
+        }
+        
+        .pricing-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .pricing-card.featured {
+            border-color: var(--accent-blue);
+            transform: scale(1.05);
+            box-shadow: var(--shadow-glow);
+        }
+        
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gradient-blue);
+            color: white;
+            padding: 6px 20px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .pricing-name {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .pricing-desc {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+        
+        .pricing-price {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        
+        .pricing-price span {
+            font-size: 16px;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+        
+        .pricing-features {
+            list-style: none;
+            margin: 32px 0;
+        }
+        
+        .pricing-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        .pricing-features li::before {
+            content: '✓';
+            color: var(--accent-green);
+            font-weight: 700;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+            padding: 120px 0;
+        }
+        
+        .cta-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 32px;
+            padding: 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-blue);
+        }
+        
+        .cta-title {
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 800;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+        
+        .cta-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--bg-secondary);
+            padding: 80px 0 40px;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 60px;
+        }
+        
+        .footer-brand p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+        
+        .footer-title {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: var(--text-muted);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 40px;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .footer-copyright {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 16px;
+        }
+        
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        .footer-social a:hover {
+            background: var(--accent-blue);
+            color: white;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .features-grid,
+            .platforms-grid,
+            .steps-container,
+            .pricing-grid,
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .steps-container::before {
+                display: none;
+            }
+            
+            .bento-large,
+            .bento-medium,
+            .bento-wide {
+                grid-column: span 6;
+            }
+            
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .pricing-card.featured {
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero-title {
+                letter-spacing: -1px;
+            }
+            
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+            
+            .features-grid,
+            .platforms-grid,
+            .steps-container,
+            .pricing-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .bento-large,
+            .bento-medium,
+            .bento-wide {
+                grid-column: span 12;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            .cta-card {
+                padding: 48px 24px;
+            }
+        }
+        
+        /* Mobile Menu */
+        .mobile-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(3, 3, 6, 0.98);
+            z-index: 999;
+            display: none;
+            flex-direction: column;
+            padding: 100px 24px 40px;
+        }
+        
+        .mobile-nav.active {
+            display: flex;
+        }
+        
+        .mobile-nav-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 28px;
+            cursor: pointer;
+        }
+        
+        .mobile-nav a {
+            display: block;
+            padding: 16px 0;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        /* Marquee */
+        .marquee-container {
+            overflow: hidden;
+            padding: 20px 0;
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .marquee {
+            display: flex;
+            gap: 60px;
+            animation: marquee 30s linear infinite;
+        }
+        
+        .marquee-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+        
+        .marquee-item strong {
+            color: var(--text-primary);
+        }
+        
+        @keyframes marquee {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+        
+        /* Code display */
+        .code-block {
+            background: #0d1117;
+            border-radius: 12px;
+            padding: 24px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            line-height: 1.7;
+            overflow-x: auto;
+            margin-top: 24px;
+        }
+        
+        .code-line {
+            display: block;
+        }
+        
+        .code-comment { color: #6e7681; }
+        .code-keyword { color: #ff7b72; }
+        .code-string { color: #a5d6ff; }
+        .code-function { color: #d2a8ff; }
+        .code-number { color: #79c0ff; }
+    </style>
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-grid"></div>
+    <div class="bg-gradient-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="https://zolix.ai" class="logo">
+                    <div class="logo-icon">Z</div>
+                    <div class="logo-text">ZOLIX<span>.AI</span></div>
+                </a>
+                <div class="nav-links">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#platforms" class="nav-link">Platforms</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#testimonials" class="nav-link">Customers</a>
+                    <a href="https://zolix.ai" class="nav-cta">Get Started</a>
+                </div>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" onclick="toggleMobileMenu()">&times;</button>
+        <a href="#features" onclick="toggleMobileMenu()">Features</a>
+        <a href="#platforms" onclick="toggleMobileMenu()">Platforms</a>
+        <a href="#how-it-works" onclick="toggleMobileMenu()">How It Works</a>
+        <a href="#testimonials" onclick="toggleMobileMenu()">Customers</a>
+        <a href="https://zolix.ai" onclick="toggleMobileMenu()">Get Started</a>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="hero-badge-icon">
+                        <svg width="12" height="12" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/></svg>
+                    </span>
+                    AI-Powered Cloud Cost Optimization
+                </div>
+                <h1 class="hero-title">
+                    Reduce Cloud Costs by <span class="highlight-gold">upto 60%</span><br>
+                    in Just <span class="highlight">72 Hours</span>
+                </h1>
+                <p class="hero-subtitle">
+                    ZOLIX.AI uses advanced artificial intelligence to analyze, optimize, and automate your cloud spending across AWS, Azure, GCP, and OCI — delivering measurable savings without impacting performance.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="https://zolix.ai" class="btn btn-primary">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        Start Free Assessment
+                    </a>
+                    <a href="https://zolix.ai" class="btn btn-secondary">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+                        Watch Demo
+                    </a>
+                </div>
+                
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <div class="stat-value gold">upto 60%</div>
+                        <div class="stat-label">Average Cost Reduction</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">72h</div>
+                        <div class="stat-label">Time to Results</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">100+</div>
+                        <div class="stat-label">Cloud Services Covered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">5000+</div>
+                        <div class="stat-label">Best Practices</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Marquee -->
+    <div class="marquee-container">
+        <div class="marquee">
+            <div class="marquee-item"><strong>AWS</strong> Cost Optimization</div>
+            <div class="marquee-item"><strong>Azure</strong> Spend Management</div>
+            <div class="marquee-item"><strong>GCP</strong> Resource Analysis</div>
+            <div class="marquee-item"><strong>OCI</strong> Workload Optimization</div>
+            <div class="marquee-item"><strong>Multi-Cloud</strong> Strategy</div>
+            <div class="marquee-item"><strong>FinOps</strong> Automation</div>
+            <div class="marquee-item"><strong>Real-Time</strong> Monitoring</div>
+            <div class="marquee-item"><strong>AI-Powered</strong> Recommendations</div>
+            <div class="marquee-item"><strong>AWS</strong> Cost Optimization</div>
+            <div class="marquee-item"><strong>Azure</strong> Spend Management</div>
+            <div class="marquee-item"><strong>GCP</strong> Resource Analysis</div>
+            <div class="marquee-item"><strong>OCI</strong> Workload Optimization</div>
+            <div class="marquee-item"><strong>Multi-Cloud</strong> Strategy</div>
+            <div class="marquee-item"><strong>FinOps</strong> Automation</div>
+            <div class="marquee-item"><strong>Real-Time</strong> Monitoring</div>
+            <div class="marquee-item"><strong>AI-Powered</strong> Recommendations</div>
+        </div>
+    </div>
+    
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">
+                    <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"/></svg>
+                    Core Features
+                </span>
+                <h2 class="section-title">Intelligent Cloud Optimization<br>at Scale</h2>
+                <p class="section-subtitle">Our AI engine analyzes millions of data points to deliver personalized, actionable recommendations that drive real savings.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#3b82f6" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                    </div>
+                    <h3 class="feature-title">Real-Time Cost Analysis</h3>
+                    <p class="feature-desc">Monitor your cloud spending in real-time with detailed breakdowns by service, resource, team, and project.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#06b6d4" stroke-width="2" viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                    </div>
+                    <h3 class="feature-title">AI-Powered Recommendations</h3>
+                    <p class="feature-desc">Get intelligent suggestions powered by machine learning that learn from your usage patterns and industry benchmarks.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#10b981" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                    </div>
+                    <h3 class="feature-title">Automated Optimization</h3>
+                    <p class="feature-desc">Set rules and let our platform automatically right-size instances, manage reservations, and eliminate waste.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#fbbf24" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <h3 class="feature-title">Security & Compliance</h3>
+                    <p class="feature-desc">Enterprise-grade security with SOC 2 compliance, encryption at rest and in transit, and role-based access controls.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#8b5cf6" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                    </div>
+                    <h3 class="feature-title">Team Collaboration</h3>
+                    <p class="feature-desc">Share insights, assign tasks, and track optimization progress across your organization with built-in collaboration tools.</p>
+                </div>
+                
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" fill="none" stroke="#ef4444" stroke-width="2" viewBox="0 0 24 24"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+                    </div>
+                    <h3 class="feature-title">Smart Alerts</h3>
+                    <p class="feature-desc">Get notified about anomalies, budget thresholds, and optimization opportunities before they impact your bottom line.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Cloud Platforms -->
+    <section id="platforms" class="platforms-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Multi-Cloud Support</span>
+                <h2 class="section-title">Optimize Across All Major<br>Cloud Platforms</h2>
+                <p class="section-subtitle">One platform to manage and optimize your entire multi-cloud infrastructure.</p>
+            </div>
+            
+            <div class="platforms-grid">
+                <div class="platform-card fade-in">
+                    <div class="platform-logo" style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #FF9900 0%, #FFB84D 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AWS</div>
+                    <h3 class="platform-name">Amazon Web Services</h3>
+                    <p class="platform-services">EC2, RDS, S3, Lambda & 50+ services</p>
+                </div>
+                
+                <div class="platform-card fade-in">
+                    <div class="platform-logo" style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #0078D4 0%, #50E6FF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Azure</div>
+                    <h3 class="platform-name">Microsoft Azure</h3>
+                    <p class="platform-services">VMs, SQL, Storage, Functions & 40+ services</p>
+                </div>
+                
+                <div class="platform-card fade-in">
+                    <div class="platform-logo" style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">GCP</div>
+                    <h3 class="platform-name">Google Cloud Platform</h3>
+                    <p class="platform-services">Compute, BigQuery, GKE & 35+ services</p>
+                </div>
+                
+                <div class="platform-card fade-in">
+                    <div class="platform-logo" style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #C74634 0%, #E85A47 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">OCI</div>
+                    <h3 class="platform-name">Oracle Cloud</h3>
+                    <p class="platform-services">OCI Compute, Database & 25+ services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- How It Works -->
+    <section id="how-it-works">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Simple Process</span>
+                <h2 class="section-title">Start Saving in<br>72 Hours</h2>
+                <p class="section-subtitle">Our streamlined onboarding process gets you from sign-up to savings in record time.</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-card fade-in">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Connect Your Cloud</h3>
+                    <p class="step-desc">Securely connect your AWS, Azure, GCP, or OCI accounts with read-only access.</p>
+                </div>
+                
+                <div class="step-card fade-in">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Analysis</h3>
+                    <p class="step-desc">Our AI engine scans your infrastructure against 5000+ optimization best practices.</p>
+                </div>
+                
+                <div class="step-card fade-in">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Review Recommendations</h3>
+                    <p class="step-desc">Get a detailed report with prioritized savings opportunities and estimated impact.</p>
+                </div>
+                
+                <div class="step-card fade-in">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Implement & Save</h3>
+                    <p class="step-desc">Apply optimizations manually or enable automated actions to start saving immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bento Grid Section -->
+    <section style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Why ZOLIX.AI</span>
+                <h2 class="section-title">Built for Enterprise<br>Cloud Teams</h2>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-card bento-large fade-in">
+                    <div class="bento-stat">$2.4M+</div>
+                    <h3 class="bento-title">Average Annual Savings per Customer</h3>
+                    <p class="bento-desc">Our enterprise customers see an average ROI of 10x within the first year. With AI-powered analysis across 100+ cloud services and 5000+ best practices, we identify savings opportunities that manual reviews miss.</p>
+                    <div class="code-block">
+                        <span class="code-line"><span class="code-comment">// ZOLIX.AI Analysis Results</span></span>
+                        <span class="code-line"><span class="code-keyword">const</span> <span class="code-function">savings</span> = {</span>
+                        <span class="code-line">  rightSizing: <span class="code-string">"$847,000"</span>,</span>
+                        <span class="code-line">  unusedResources: <span class="code-string">"$423,000"</span>,</span>
+                        <span class="code-line">  reservedInstances: <span class="code-string">"$1,130,000"</span>,</span>
+                        <span class="code-line">  totalAnnual: <span class="code-string">"$2,400,000"</span></span>
+                        <span class="code-line">};</span>
+                    </div>
+                </div>
+                
+                <div class="bento-card bento-medium fade-in">
+                    <div class="bento-stat" style="font-size: 40px;">Zero Risk</div>
+                    <h3 class="bento-title">Read-Only Access</h3>
+                    <p class="bento-desc">We only request read-only permissions. Your infrastructure remains secure and unchanged until you approve optimizations.</p>
+                </div>
+                
+                <div class="bento-card bento-medium fade-in">
+                    <div class="bento-stat" style="font-size: 40px;">24/7</div>
+                    <h3 class="bento-title">Continuous Monitoring</h3>
+                    <p class="bento-desc">Our AI never sleeps. Get real-time alerts for cost anomalies and new optimization opportunities.</p>
+                </div>
+                
+                <div class="bento-card bento-wide fade-in">
+                    <h3 class="bento-title">Multi-Cloud Visibility</h3>
+                    <p class="bento-desc">See all your cloud spending in one unified dashboard. Compare costs across providers and identify the most cost-effective deployment strategies.</p>
+                </div>
+                
+                <div class="bento-card bento-wide fade-in">
+                    <h3 class="bento-title">FinOps Best Practices</h3>
+                    <p class="bento-desc">Built on FinOps Foundation principles with automated cost allocation, showback/chargeback reporting, and governance policies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Trusted Partners</span>
+                <h2 class="section-title">Trusted by Cloud Teams<br>Worldwide</h2>
+                <p class="section-subtitle">Industry leaders rely on ZOLIX.AI for intelligent cloud cost optimization.</p>
+            </div>
+            
+            <!-- Customer Logos -->
+            <div class="customer-logos fade-in" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 64px; margin-bottom: 64px; padding: 56px 48px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 20px;">
+                <div style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #f7931a 0%, #ffb84d 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px;">Bitcoin</div>
+                <div style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px;">Meritech</div>
+                <div style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #10b981 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px;">Zenwork</div>
+                <div style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px;">Protean</div>
+                <div style="font-size: 32px; font-weight: 800; background: linear-gradient(135deg, #ef4444 0%, #f87171 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.5px;">AuthMind</div>
+            </div>
+            
+            <!-- CTA to visit main site -->
+            <div class="fade-in" style="text-align: center; padding: 48px; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(6, 182, 212, 0.1) 100%); border: 1px solid rgba(59, 130, 246, 0.2); border-radius: 20px;">
+                <h3 style="font-size: 24px; font-weight: 700; margin-bottom: 12px;">Want to see how we helped these companies?</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">Visit zolix.ai for detailed case studies and customer success stories.</p>
+                <a href="https://zolix.ai" class="btn btn-primary">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                    View Case Studies on zolix.ai
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card fade-in">
+                <h2 class="cta-title">Ready to Cut Your Cloud Costs<br>by <span style="background: var(--gradient-gold); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">upto 60%</span>?</h2>
+                <p class="cta-subtitle">Join industry leaders like Bitcoin, Meritech, Zenwork, Protean, and AuthMind. Visit zolix.ai to start your optimization journey.</p>
+                <div class="hero-cta-group">
+                    <a href="https://zolix.ai" class="btn btn-gold">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        Visit zolix.ai
+                    </a>
+                    <a href="https://zolix.ai" class="btn btn-secondary">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                        Contact Sales
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="https://zolix.ai" class="logo">
+                        <div class="logo-icon">Z</div>
+                        <div class="logo-text">ZOLIX<span>.AI</span></div>
+                    </a>
+                    <p>AI-powered cloud cost optimization platform. Reduce your cloud spending by up to 60% across AWS, Azure, GCP, and OCI.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://zolix.ai">Features</a></li>
+                        <li><a href="https://zolix.ai">Pricing</a></li>
+                        <li><a href="https://zolix.ai">Integrations</a></li>
+                        <li><a href="https://zolix.ai">Changelog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://zolix.ai">Documentation</a></li>
+                        <li><a href="https://zolix.ai">Blog</a></li>
+                        <li><a href="https://zolix.ai">Case Studies</a></li>
+                        <li><a href="https://zolix.ai">API Reference</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://zolix.ai">About Us</a></li>
+                        <li><a href="https://zolix.ai">Careers</a></li>
+                        <li><a href="https://zolix.ai">Contact</a></li>
+                        <li><a href="https://zolix.ai">Partners</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://zolix.ai">Privacy Policy</a></li>
+                        <li><a href="https://zolix.ai">Terms of Service</a></li>
+                        <li><a href="https://zolix.ai">Security</a></li>
+                        <li><a href="https://zolix.ai">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 ZOLIX.AI. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://twitter.com/zolixai" aria-label="Twitter">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/zolix-ai-engine/" aria-label="LinkedIn">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/zolixai" aria-label="GitHub">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Navigation scroll effect
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+        }
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Counter animation for stats
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const value = Math.floor(progress * (end - start) + start);
+                element.textContent = value + (element.dataset.suffix || '');
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+    </script>
+</body>
+</html>
